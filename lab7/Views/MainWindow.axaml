@@ -20,7 +20,7 @@
 			<MenuItem  Name="About" Header="About" Foreground="White"/>
 		</Menu>
 
-		<DataGrid Name="data" Grid.Row="1" CanUserResizeColumns="True" ColumnWidth="30*" AlternatingRowBackground="#9E9E9E"  AutoGenerateColumns="False" Items="{Binding Students}" Background="#3E3E42"  >
+		<DataGrid Name="data" Grid.Row="1" CanUserResizeColumns="True" ColumnWidth="30*" AlternatingRowBackground="#9E9E9E"  AutoGenerateColumns="False" Items="{Binding Students}" Background="#FFFFFF"  >
 			<DataGrid.Columns>
 				<DataGridTextColumn Header="ФИО" Binding="{Binding Name}" />
 				<DataGridTemplateColumn Header="СГМА" MinWidth="5" >
